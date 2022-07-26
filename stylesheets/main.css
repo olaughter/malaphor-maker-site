@@ -1,0 +1,49 @@
+body {
+    background-color: #E1D9D1;
+    color: #121212;
+    align-items: center;
+    font-family: 'Ibarra Real Nova';
+}
+
+.viewport {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 9vw;
+}
+h2 {
+    font-size: 5vw;
+}
+p {
+    font-size: 3vw;
+}
+ol {
+    padding-left: 5vw;
+}
+li {
+    font-size: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-left: 1vh;
+}
+.link {
+    font-size: 2vw;
+}
+@media screen and (min-width: 1100px) {
+    h1 {
+        font-size: 6vw !important;
+    }
+    h2 {
+        font-size: 4vw !important;
+    }
+    p {
+        font-size: 2vw !important;
+    }
+    li {
+        font-size: 2vw !important;
+    }
+    .link {
+        font-size: 1vw !important;
+    }
+}
